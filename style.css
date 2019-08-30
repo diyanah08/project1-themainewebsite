@@ -34,3 +34,64 @@ background-image: url(https://mdbootstrap.com/img/svg/hamburger6.svg?color=000) 
 .nav-item:hover .nav-link:hover {
   color: white;
 }
+
+
+.hero-image {
+  background-image: url(images/themaine2019.jpg);
+  height: 500px;
+  background-position: top;
+  background-size: cover;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.cta {
+  background-color: rgba(240, 248, 255, 0.352);
+  color: #044D11;
+  font-family: 'bitter', sarif;
+  min-height: 150px;
+  margin-bottom: 0px;
+  position: relative;
+  animation-name: enter;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+
+@keyframes enter {
+  from {
+  top: 220px;
+  left: -500px;
+  }
+
+  to  {
+  top: 220px;
+  left: 0px;
+  }
+}
+
+
+
+.cta-text {
+  font-family: bookman;
+  text-align: center;
+}
+
+.lead {
+  text-align:center;
+}
+
+@media (min-width: 700px) {
+  .container{
+    margin: 1px 1px 1px 1px;
+  }
+
+  .hero-image {
+  min-height: 500px;
+  }
+}
