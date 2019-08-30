@@ -1,0 +1,36 @@
+html {
+  width: 100%;
+  margin: 0px; 
+}
+
+body {
+  width: 100%;
+  margin: 0px; 
+  background-color: #f2a916;
+}
+
+ .container {
+  padding: 0px;
+  width: 100%;
+}   
+
+.bg-light{
+  background-color: #f2a916 !important;
+}
+
+.nav-item {
+  color: black;
+  font-family: arial black;
+}
+
+.navbar-toggler{
+  border: none;
+}
+
+.navbar-toggler-icon {
+background-image: url(https://mdbootstrap.com/img/svg/hamburger6.svg?color=000) !important;
+}
+
+.nav-item:hover .nav-link:hover {
+  color: white;
+}
