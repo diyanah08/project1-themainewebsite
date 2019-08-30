@@ -9,7 +9,7 @@ body {
   background-color: #f2a916;
 }
 
- .container {
+.container {
   padding: 0px;
   width: 100%;
 }   
@@ -38,7 +38,7 @@ background-image: url(https://mdbootstrap.com/img/svg/hamburger6.svg?color=000) 
 
 .hero-image {
   background-image: url(images/themaine2019.jpg);
-  height: 500px;
+  height: 700px;
   background-position: top;
   background-size: cover;
 }
@@ -63,7 +63,7 @@ background-image: url(https://mdbootstrap.com/img/svg/hamburger6.svg?color=000) 
 }
 
 .cta-text {
-  font-family: bookman;
+  font-family: 'bitter', sarif;
   text-align: center;
 }
 
@@ -76,16 +76,27 @@ background-image: url(https://mdbootstrap.com/img/svg/hamburger6.svg?color=000) 
     color: #21A179;
 }
 
+#tour {
+  background-image: url(images/tourdates.jpg);
+  height: 450px;
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+}
+
 /*KEYFRAMES*/
 
 @keyframes enter {
   from {
-  top: 220px;
+  top: 80px;
   left: -500px;
   }
 
   to  {
-  top: 220px;
+  top: 80px;
   left: 0px;
   }
 }
@@ -98,6 +109,39 @@ background-image: url(https://mdbootstrap.com/img/svg/hamburger6.svg?color=000) 
   }
 
   .hero-image {
-  min-height: 500px;
+  min-height: 350px;
   }
+  
+  .tour {
+    position: relative;
+    top: 700px;
+  }
+}
+
+@media (max-width: 600px) {
+  .cta {
+    min-height: 80px;
+  }
+  
+  .cta-text {
+    font-family: 'bitter', sarif;
+    text-align: center;
+    font-size: 15px
+  }
+  
+  .lead {
+    font-size: 15px;
+  }
+  
+  @keyframes enter {
+  from {
+  top: 40px;
+  left: -500px;
+  }
+
+  to  {
+  top: 40px;
+  left: 0px;
+  }
+}
 }
