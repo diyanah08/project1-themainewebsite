@@ -62,6 +62,21 @@ background-image: url(https://mdbootstrap.com/img/svg/hamburger6.svg?color=000) 
   animation-timing-function: ease-in-out;
 }
 
+.cta-text {
+  font-family: bookman;
+  text-align: center;
+}
+
+.lead {
+  text-align:center;
+  line-height: normal;
+}
+
+.fab {
+    color: #21A179;
+}
+
+/*KEYFRAMES*/
 
 @keyframes enter {
   from {
@@ -75,16 +90,7 @@ background-image: url(https://mdbootstrap.com/img/svg/hamburger6.svg?color=000) 
   }
 }
 
-
-
-.cta-text {
-  font-family: bookman;
-  text-align: center;
-}
-
-.lead {
-  text-align:center;
-}
+/*MEDIA QUERIES*/
 
 @media (min-width: 700px) {
   .container{
