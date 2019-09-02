@@ -222,6 +222,80 @@ label {
   font-size: 20px;
 }
 
+#albums {
+  position: relative;
+  display: block;
+  background-image: url(images/albumsbackground.png);
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  margin-bottom: 20px;
+  padding: 0px;
+  z-index: 3;
+}
+
+.albumpage-text {
+  font-family: 'Anton', sarif;
+  text-align: center;
+  letter-spacing: 15px;
+  font-size: 50px;
+  color: #f2a916;
+  padding: 80px 15px 0px 15px;
+  z-index: 3;
+}
+
+.card {
+  background-color: rgba(33, 161, 120, 0.207);
+}
+
+.card-title {
+  font-family: 'Anton', serif;
+  text-align: center;
+}
+
+.row {
+  width: 100%;
+}
+
+.first {
+  padding: 20px 15px 0px 40px;
+}
+
+.second {
+  padding: 20px 50px 0px 80px;
+}
+
+.third {
+  padding: 20px 15px 40px 40px;
+}
+
+.card-body {
+  margin: 0px;
+  padding: 10px;
+}
+
+.open {
+  background-color: black;
+  color: #f2a916;
+  font-family: 'Bitter', sans-serif;
+  border: none;
+  border-radius: 5px;
+  padding: 4px;
+  margin: 3px;
+  font-size: 15px;
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.open:hover {
+  color: white;
+  text-decoration: none;
+}
+
 /*KEYFRAMES*/
 
 @keyframes enter {
