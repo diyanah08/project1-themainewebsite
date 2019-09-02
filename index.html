@@ -74,13 +74,12 @@
      </main>
     <footer class="end responsive">
       <p class="lead">Sign up with your email to receive updates from us!</p>
-      <form class="updates">
+      <form class="updates" method="post">
         <label for="name">Name:</label>
         <input type="text" id="name" required/>
         <label for="email">Email Address:</label>
-        <input type="email" id="email" required/>
+        <input type="email" id="email" valid required/>
         <button type="button" class="signup" data-toggle="modal" data-target="#welcome">Sign Up</button>
-      </form>
           <div class="modal fade" id="welcome" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
               <div class="modal-content">
@@ -96,6 +95,7 @@
               </div>
             </div>
           </div>
+      </form>
       <p class="lead>
       <a href="https://www.facebook.com/themaine/" title="Facebook"><i class="fab fa-facebook fa-2x"></i></a>
       <a href="https://www.instagram.com/themaineband/?hl=en" title="Instagram"><i class="fab fa-instagram fa-2x"></i></a>

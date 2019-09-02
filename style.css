@@ -313,43 +313,120 @@ label {
 /*MEDIA QUERIES*/
 
 @media (min-width: 700px) {
-  .container{
-    margin: 1px 1px 1px 1px;
-  }
-
-  .hero-image {
-  min-height: 350px;
+  #hero-image {
+    min-height: 450px;
+    width: 100%;
   }
   
-  .tour {
+  #tour {
+    min-height: 450px;
     position: relative;
-    top: 700px;
+  }
+
+  #media {
+    min-height: 450px;
+    position: relative;
   }
 }
 
 @media (max-width: 600px) {
+  #hero-image {
+    max-height: 450px;
+    width: 100%;
+  }
+
+  #media {
+    max-height: 450px;
+    width: 100%;
+  }
+
+  #about {
+    max-height: 450px;
+    width: 100%;
+  }
+
+  #tour {
+    max-height: 450px;
+    width: 100%;
+  }
+
   .cta {
     min-height: 80px;
   }
   
   .cta-text {
-    font-family: 'bitter', sarif;
-    text-align: center;
-    font-size: 15px
+    font-size: 20px;
+    color: white;
+  }
+
+  .fab {
+    color: #21A179;
+    margin: 0px 10px;
+  }
+
+  .fab:hover {
+    color: white;
+  }
+
+  .fas {
+    color: #21A179;
+    margin: 0px 10px;
+  }
+
+  .fas:hover {
+    color: white;
   }
   
+  .catchus-text{
+    font-size: 25px;
+    color: white;
+    letter-spacing: 5px;
+  }
+
   .lead {
-    font-size: 15px;
+    font-size: 13px;
+    color: white;
+    line-height: 13px;
+  }
+
+  /* .col-sm {
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(4, 77, 17, 0.379);
+   } */
+
+  .end {
+    display: block;
+    font-size: 13px;
+    padding: 10px;
+   }
+
+  .updates {
+    display: block;
+    justify-content: center;
+  }
+
+  .signup {
+    display: block;
+    margin: 20px auto;
+    font-size: 13px;
+  }
+
+  label {
+    display: block;
+    font-size: 13px;
   }
   
   @keyframes enter {
   from {
-  top: 40px;
+  top: 250px;
   left: -500px;
   }
 
   to  {
-  top: 40px;
+  top: 250px;
   left: 0px;
   }
 }
