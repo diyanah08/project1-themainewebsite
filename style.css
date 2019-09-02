@@ -133,6 +133,20 @@ body {
   z-index: 3;
 }
 
+#about {
+  position: relative;
+  display: block;
+  background-image: url(images/youareokay.jpeg);
+  height: 650px;
+  margin: 0px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  z-index: -10;
+}
+
+
 /*KEYFRAMES*/
 
 @keyframes enter {
