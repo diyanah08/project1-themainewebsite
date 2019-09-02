@@ -306,6 +306,11 @@ label {
   text-decoration: none;
 }
 
+.yao {
+  background-image: url(youareokaycover.jpg);
+  height: 50px;
+  width: 50px;
+}
 /*KEYFRAMES*/
 
 @keyframes enter {
