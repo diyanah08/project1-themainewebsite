@@ -1,26 +1,37 @@
 html {
-  width: 100%;
-  margin: 0px; 
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
-  width: 100%;
-  margin: 0px; 
-  background-color: #f2a916;
+  background-color: hsl(40, 89%, 52%);
+  margin: 0px;
+  padding: 0px;
 }
 
-.container {
+.container-fluid {
+  margin: 0px;
   padding: 0px;
+}
+
+.responsive {
   width: 100%;
-}   
+  height: auto;
+}
 
 .bg-light{
   background-color: #f2a916 !important;
 }
 
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+
 .nav-item {
   color: black;
-  font-family: arial black;
+  font-family: 'Anton', san-sarif;
 }
 
 .navbar-toggler{
@@ -28,7 +39,8 @@ body {
 }
 
 .navbar-toggler-icon {
-background-image: url(https://mdbootstrap.com/img/svg/hamburger6.svg?color=000) !important;
+  background-image: url(https://mdbootstrap.com/img/svg/hamburger6.svg?color=000) !important;
+  margin-right: 3px;
 }
 
 .nav-item:hover .nav-link:hover {
