@@ -126,12 +126,12 @@ body {
 
 @keyframes enter {
   from {
-  top: 80px;
+  top: 8px;
   left: -500px;
   }
 
   to  {
-  top: 80px;
+  top: 8px;
   left: 0px;
   }
 }
