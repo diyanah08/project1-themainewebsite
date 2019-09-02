@@ -161,6 +161,16 @@ body {
   z-index: 3;
 }
 
+.media1 {
+  padding: 15px 15px 0px 40px;
+}
+
+.card-title-media {
+  font-family: 'Anton', serif;
+  text-align: center;
+  font-size: 15px;
+}
+
 .end {
   background-color: #f2a916;
   height: 150px;
@@ -244,7 +254,7 @@ label {
   letter-spacing: 15px;
   font-size: 50px;
   color: #f2a916;
-  padding: 80px 15px 0px 15px;
+  padding: 60px 15px 0px 15px;
   z-index: 3;
 }
 
