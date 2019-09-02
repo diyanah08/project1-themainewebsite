@@ -112,14 +112,25 @@ body {
 }
 
 #tour {
-  background-image: url(images/tourdates.jpg);
-  height: 450px;
+  position: relative;
+  background-image: url(images/blueback1.jpg);
+  height: 650px;
   background-attachment: fixed;
-  background-position: center top;
-  background-repeat: no-repeat;
+  background-position: bottom right;
   background-size: cover;
   margin: 0px;
   padding: 0px;
+  z-index: 3;
+}
+
+.catchus-text {
+  font-family: 'Anton', sarif;
+  text-align: center;
+  letter-spacing: 15px;
+  font-size: 60px;
+  color: #f2a916;
+  padding: 55px 30px 0px;
+  z-index: 3;
 }
 
 /*KEYFRAMES*/
