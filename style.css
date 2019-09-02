@@ -114,7 +114,7 @@ body {
 #tour {
   position: relative;
   background-image: url(images/blueback1.jpg);
-  height: 650px;
+  height: 700px;
   background-attachment: fixed;
   background-position: bottom right;
   background-size: cover;
@@ -137,7 +137,7 @@ body {
   position: relative;
   display: block;
   background-image: url(images/youareokay.jpeg);
-  height: 650px;
+  height: 700px;
   margin: 0px;
   width: 100%;
   background-attachment: fixed;
@@ -150,7 +150,7 @@ body {
   position: relative;
   display: block;
   background-image: url(images/blueback2.jpg);
-  height: 650px;
+  height: 700px;
   background-attachment: fixed;
   background-position: bottom right;
   background-repeat: no-repeat;
