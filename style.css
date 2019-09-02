@@ -419,6 +419,10 @@ label {
     font-size: 13px;
   }
   
+  .second {
+  padding: 20px 15px 0px 40px;
+  }
+  
   @keyframes enter {
   from {
   top: 250px;
