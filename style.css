@@ -150,7 +150,8 @@ body {
   position: relative;
   display: block;
   background-image: url(images/blueback2.jpg);
-  height: 700px;
+  height: 100%;
+  width: 100%;
   background-attachment: fixed;
   background-position: bottom right;
   background-repeat: no-repeat;
@@ -159,16 +160,32 @@ body {
   margin-bottom: 20px;
   padding: 0px;
   z-index: 3;
+  overflow-y: scroll;
 }
 
 .media1 {
-  padding: 15px 15px 0px 40px;
+  padding: 0px 15px 0px 40px;
 }
 
 .card-title-media {
   font-family: 'Anton', serif;
   text-align: center;
   font-size: 15px;
+}
+
+.card {
+  background-color: rgba(33, 161, 120, 0.207);
+  margin: 30px auto;
+}
+
+.card-title {
+  font-family: 'Anton', serif;
+  text-align: center;
+}
+
+.card-body {
+  margin: 0px;
+  padding: 10px;
 }
 
 .end {
@@ -254,63 +271,28 @@ label {
   letter-spacing: 15px;
   font-size: 50px;
   color: #f2a916;
-  padding: 60px 15px 0px 15px;
+  padding: 65px 15px 0px 25px;
   z-index: 3;
-}
-
-.card {
-  background-color: rgba(33, 161, 120, 0.207);
-}
-
-.card-title {
-  font-family: 'Anton', serif;
-  text-align: center;
 }
 
 .row {
   width: 100%;
+  padding: 55px 0px 0px 30px;
 }
 
-.first {
-  padding: 20px 15px 0px 40px;
-}
 
-.second {
-  padding: 20px 50px 0px 80px;
-}
-
-.third {
-  padding: 20px 15px 40px 40px;
-}
-
-.card-body {
+.dropdown {
   margin: 0px;
   padding: 10px;
 }
 
-.open {
-  background-color: black;
-  color: #f2a916;
-  font-family: 'Bitter', sans-serif;
+.dropdown-menu{
+  margin: 0px;
+  padding: 0px 40px;
   border: none;
-  border-radius: 5px;
-  padding: 4px;
-  margin: 3px;
-  font-size: 15px;
-  width: 100px;
-  margin-bottom: 20px;
+  background-color: transparent;
 }
 
-.open:hover {
-  color: white;
-  text-decoration: none;
-}
-
-.yao {
-  background-image: url(youareokaycover.jpg);
-  height: 50px;
-  width: 50px;
-}
 /*KEYFRAMES*/
 
 @keyframes enter {
@@ -404,14 +386,6 @@ label {
     line-height: 13px;
   }
 
-  /* .col-sm {
-    padding: 10px;
-    margin: 10px;
-    width: 300px;
-    height: 400px;
-    background-color: rgba(4, 77, 17, 0.379);
-   } */
-
   .end {
     display: block;
     font-size: 13px;
@@ -432,10 +406,6 @@ label {
   label {
     display: block;
     font-size: 13px;
-  }
-  
-  .second {
-  padding: 20px 15px 0px 40px;
   }
   
   @keyframes enter {
