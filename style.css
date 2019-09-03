@@ -271,19 +271,19 @@ label {
   letter-spacing: 15px;
   font-size: 50px;
   color: #f2a916;
-  padding: 65px 15px 0px 25px;
+  padding: 55px 15px 0px 25px;
   z-index: 3;
 }
 
 .row {
   width: 100%;
-  padding: 55px 0px 0px 30px;
+  padding: 15px 0px 0px 30px;
 }
 
 
 .dropdown {
   margin: 0px;
-  padding: 10px;
+  padding: 30px;
 }
 
 .dropdown-menu{
@@ -376,7 +376,7 @@ label {
   
   .catchus-text{
     font-size: 25px;
-    color: white;
+    color: black;
     letter-spacing: 5px;
   }
 
