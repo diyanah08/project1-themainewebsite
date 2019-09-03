@@ -376,10 +376,18 @@ label {
   
   .catchus-text{
     font-size: 25px;
-    color: black;
+    color: white;
     letter-spacing: 5px;
+    padding-top: 70px;
   }
 
+  .albumpage-text{
+    font-size: 30px;
+    color: white;
+    letter-spacing: 5px;
+    padding-top: 70px;
+  }
+  
   .lead {
     font-size: 13px;
     color: white;
