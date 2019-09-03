@@ -338,22 +338,36 @@ label {
   z-index: 3;
 }
 
+.albumpage-text-two {
+  font-family: 'Anton', sarif;
+  text-align: center;
+  letter-spacing: 15px;
+  font-size: 50px;
+  color: #f2a916;
+  padding: 5px 15px 0px 25px;
+  z-index: 3;
+}
+
 .row {
   width: 100%;
-  padding: 15px 0px 0px 30px;
+  padding: 5px 0px 25px 30px;
 }
 
 
 .dropdown {
+  width: 100%;
   margin: 0px;
-  padding: 30px;
+  padding: 0px;
 }
 
 .dropdown-menu{
+  width: 100%;
   margin: 0px;
-  padding: 0px 40px;
+  padding: 0px 0px;
   border: none;
   background-color: transparent;
+  position: relative;
+  top: 0%;
 }
 
 /*KEYFRAMES*/
@@ -453,6 +467,13 @@ label {
     color: white;
     letter-spacing: 5px;
     padding-top: 70px;
+  }
+  
+  .albumpage-text-two {
+  font-size: 30px;
+  color: white;
+  letter-spacing: 5px;
+  padding-top: 10px;
   }
   
   .lead {
