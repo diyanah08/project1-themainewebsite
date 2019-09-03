@@ -129,9 +129,27 @@ body {
   letter-spacing: 15px;
   font-size: 60px;
   color: #f2a916;
-  padding: 55px 30px 0px;
+  padding: 70px 30px 0px;
   z-index: 3;
 }
+
+.open {
+  background-color: black;
+  color: #f2a916;
+  font-family: 'Bitter', sans-serif;
+  border: none;
+  border-radius: 5px;
+  padding: 4px;
+  margin: 3px;
+  font-size: 15px;
+  width: 100px;
+  margin-bottom: 20px;
+  }
+
+.open:hover {
+  color: white;
+  text-decoration: none;
+  }
 
 #about {
   position: relative;
@@ -160,7 +178,6 @@ body {
   margin-bottom: 20px;
   padding: 0px;
   z-index: 3;
-  overflow-y: scroll;
 }
 
 .media1 {
@@ -271,7 +288,7 @@ label {
   letter-spacing: 15px;
   font-size: 50px;
   color: #f2a916;
-  padding: 55px 15px 0px 25px;
+  padding: 80px 15px 0px 25px;
   z-index: 3;
 }
 
@@ -374,13 +391,17 @@ label {
     color: white;
   }
   
+  #media {
+    overflow-y: scroll;
+  }
+  
   .catchus-text{
     font-size: 25px;
     color: white;
     letter-spacing: 5px;
     padding-top: 70px;
   }
-
+  
   .albumpage-text{
     font-size: 30px;
     color: white;
