@@ -202,12 +202,13 @@ td {
 #about {
   position: relative;
   display: block;
-  background-image: url(images/youareokay.jpeg);
+  background-color: rgba(255, 255, 255, 0.3);
+  background-image: url(images/aboutusbio2.jpeg);
   height: 700px;
   margin: 0px;
   width: 100%;
   background-attachment: fixed;
-  background-position: center;
+  background-position: left center;
   background-size: cover;
   z-index: -10;
 }
@@ -215,13 +216,13 @@ td {
 .bio1 {
   position: relative;
   left: 70px;
-  top: 65px;
+  top: 120px;
   width: 300px;
   height: 80%;
 }
 
 .bio2 {
-  background-color: #ddccbe90;
+  background-color: #e8f7fc97;
   position: relative;
   left: 150px;
   top: 65px;
@@ -234,7 +235,7 @@ td {
   font-family: 'Anton', sarif;
   font-size: 50px;
   text-align: center;
-  color: #a65caa;
+  color: #21A179;
   padding-top: 13px;
   padding-bottom: 10px;
 }
@@ -242,6 +243,7 @@ td {
 .aboutusbio {
   font-family: 'Bitter', sans-serif;
   font-size: 18px;
+  color: #fcf9e9;
   word-spacing: 3px;
   line-height: 23px;
   text-align: justify;
@@ -260,7 +262,7 @@ td {
 #media {
   position: relative;
   display: block;
-  background-image: url(images/blueback2.jpg);
+  background-image: url(images/blueback.jpg);
   height: 100%;
   width: 100%;
   background-attachment: fixed;
