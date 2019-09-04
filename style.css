@@ -213,21 +213,48 @@ td {
 }
 
 .bio1 {
-  background-color: #ddccbe31;
   position: relative;
   left: 70px;
-  top: 70px;
+  top: 65px;
   width: 300px;
   height: 80%;
 }
 
 .bio2 {
-  background-color: #ddccbe31;
+  background-color: #ddccbe90;
   position: relative;
   left: 150px;
-  top: 70px;
+  top: 65px;
   width: 300px;
   height: 80%;
+  padding: 0px 0px 0px 0px;
+}
+
+.greetings {
+  font-family: 'Anton', sarif;
+  font-size: 50px;
+  text-align: center;
+  color: #a65caa;
+  padding-top: 13px;
+  padding-bottom: 10px;
+}
+
+.aboutusbio {
+  font-family: 'Bitter', sans-serif;
+  font-size: 18px;
+  word-spacing: 3px;
+  line-height: 23px;
+  text-align: justify;
+}
+
+.poem {
+  white-space: pre;
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 0px;
+  color: #a93915;
 }
 
 #media {
