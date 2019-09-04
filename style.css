@@ -19,6 +19,8 @@ body {
   height: auto;
 }
 
+/*NAVBAR SECTION*/
+
 .bg-light{
   background-color: #f2a916 !important;
 }
@@ -47,6 +49,7 @@ body {
   color: white;
 }
 
+/*HERO-IMAGE SECTION*/
 
 .jumbotron .jumbotron-fluid {
   position: absolute;
@@ -110,6 +113,8 @@ body {
 .fas:hover {
   color: white;
 }
+
+/*TOUR SECTION*/
 
 #tour {
   position: relative;
@@ -199,6 +204,8 @@ td {
   color: white;
   text-decoration: none;
   }
+  
+/*ABOUT SECTION*/
 
 #about {
   position: relative;
@@ -260,6 +267,8 @@ td {
   color: #a93915;
 }
 
+/*MEDIA SECTION*/
+
 #media {
   position: relative;
   display: block;
@@ -300,6 +309,8 @@ td {
   margin: 0px;
   padding: 10px;
 }
+
+/*FOOTER SECTION*/
 
 .end {
   background-color: #f2a916;
@@ -362,6 +373,8 @@ label {
   font-size: 20px;
 }
 
+/*ALBUMS SECTION*/
+
 #albums {
   position: relative;
   display: block;
@@ -420,7 +433,7 @@ label {
   top: 0%;
 }
 
-/*KEYFRAMES*/
+/*KEYFRAMES FOR BIG SCREENS*/
 
 @keyframes enter {
   from {
@@ -436,7 +449,9 @@ label {
 
 /*MEDIA QUERIES*/
 
-@media (min-width: 700px) {
+/*TABLETS AND SMALLER LAPTOPS*/
+
+@media (min-width: 575px) and (max-width: 1300px) {
   #hero-image {
     min-height: 450px;
     width: 100%;
@@ -452,6 +467,8 @@ label {
     position: relative;
   }
 }
+
+/*MOBILE PHONES*/
 
 @media (max-width: 600px) {
   #hero-image {
@@ -486,6 +503,12 @@ label {
     color: white;
   }
   
+  .lead {
+    font-size: 13px;
+    color: white;
+    line-height: 13px;
+  }
+
 
   #tour {
     max-height: 450px;
@@ -525,6 +548,7 @@ label {
   .moreshows a {
     text-decoration: none;
     color: orange;
+    cursor: pointer;
   }
   
   th {
@@ -547,14 +571,9 @@ label {
   padding: 0px;
   margin: 0px;
   font-size: 10px;
+  cursor: pointer;
   }
   
-  #media {
-    overflow-y: scroll;
-    max-height: 450px;
-    width: 100%;
-  }
-
   #about {
     max-height: 100%;
     width: 100%;
@@ -600,6 +619,12 @@ label {
     color: #a93915;
   }
   
+  #media {
+    overflow-y: scroll;
+    max-height: 450px;
+    width: 100%;
+  }
+  
   .card-text {
     width: 200px;
   }
@@ -613,26 +638,6 @@ label {
     width: 220px;
   }
   
-  .albumpage-text{
-    font-size: 30px;
-    color: white;
-    letter-spacing: 5px;
-    padding-top: 70px;
-  }
-  
-  .albumpage-text-two {
-  font-size: 30px;
-  color: white;
-  letter-spacing: 5px;
-  padding-top: 10px;
-  }
-  
-  .lead {
-    font-size: 13px;
-    color: white;
-    line-height: 13px;
-  }
-
   .end {
     display: block;
     font-size: 13px;
@@ -653,6 +658,20 @@ label {
   label {
     display: block;
     font-size: 13px;
+  }
+  
+  .albumpage-text{
+    font-size: 30px;
+    color: white;
+    letter-spacing: 5px;
+    padding-top: 70px;
+  }
+  
+  .albumpage-text-two {
+  font-size: 30px;
+  color: white;
+  letter-spacing: 5px;
+  padding-top: 10px;
   }
   
   @keyframes enter {
