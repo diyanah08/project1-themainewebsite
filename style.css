@@ -223,7 +223,6 @@ td {
 
 .bio1 {
   position: relative;
-  left: 70px;
   top: 120px;
   width: 300px;
   height: 80%;
@@ -232,7 +231,6 @@ td {
 .bio2 {
   background-color: #e8f7fc97;
   position: relative;
-  left: 150px;
   top: 65px;
   width: 300px;
   height: 80%;
@@ -462,15 +460,97 @@ label {
     position: relative;
   }
 
+  .catchus-text {
+    letter-spacing: 15px;
+    font-size: 35px;
+    color: #044D11;
+    padding-top: 30px;
+  }
+  
+  .table {
+    margin: 25px 10px 0px 10px;
+    width: 100%;
+  }
+  
+  .moreshows {
+    font-size: 20px;
+    padding-top: 20px;
+  }
+  
+  .moreshows a {
+    color: orange;
+    cursor: pointer;
+  }
+  
+  th {
+    font-size: 20px;
+  }
+  
+  
+  td {
+    font-size: 20px;
+  }
+  
+  .open {
+  background-color: transparent;
+  display: block;
+  padding-right: 10px;
+  text-align: center;
+  margin: 0px;
+  font-size: 18px;
+  cursor: pointer;
+  }
+
   #media {
     min-height: 450px;
     position: relative;
+  }
+  
+    #about {
+    max-height: 100%;
+    width: 100%;
+  }
+
+  .bio1 {
+    left: 1px;
+    top: 5px;
+    display: block;
+    width: 100%;
+    height: 80%;
+    padding: 0px;
+    margin-top: 30px;
+  }
+  
+  .bio2 {
+    left: 1px;
+    top: 5px;
+    display: block;
+    width: 100%;
+    height: 80%;
+    padding: 0px;
+    margin-top: 30px;
+  }
+  
+  .greetings {
+    font-size: 35px;
+  }
+  
+  .aboutusbio {
+    font-size: 15px;
+    word-spacing: 1px;
+    line-height: normal;
+  }
+  
+  .poem {
+    white-space: pre-wrap;
+    font-size: 12px;
+    padding: 20px;
   }
 }
 
 /*MOBILE PHONES*/
 
-@media (max-width: 600px) {
+@media (max-width: 574px) {
   #hero-image {
     max-height: 450px;
     width: 100%;
@@ -508,7 +588,6 @@ label {
     color: white;
     line-height: 13px;
   }
-
 
   #tour {
     max-height: 450px;
