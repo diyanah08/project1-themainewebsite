@@ -600,6 +600,19 @@ label {
     color: #a93915;
   }
   
+  .card-text {
+    width: 200px;
+  }
+  
+  .card-title-media {
+    font-size: 10px;
+  }
+  
+  .card {
+    margin: 15px auto;
+    width: 220px;
+  }
+  
   .albumpage-text{
     font-size: 30px;
     color: white;
