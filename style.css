@@ -122,6 +122,7 @@ body {
   margin: 0px;
   padding: 0px;
   z-index: 3;
+  overflow: hidden;
 }
 
 .catchus-text {
@@ -162,7 +163,7 @@ body {
   color: white;
 }
 
-.moreshows:hover a {
+.moreshows a:hover {
   color: orange;
   text-decoration: none;
 }
@@ -458,21 +459,6 @@ label {
     width: 100%;
   }
 
-  #media {
-    max-height: 450px;
-    width: 100%;
-  }
-
-  #about {
-    max-height: 450px;
-    width: 100%;
-  }
-
-  #tour {
-    max-height: 450px;
-    width: 100%;
-  }
-
   .cta {
     min-height: 80px;
   }
@@ -500,15 +486,78 @@ label {
     color: white;
   }
   
-  #media {
-    overflow-y: scroll;
+
+  #tour {
+    max-height: 450px;
+    width: 100%;
+  }
+
+  .catchus-text {
+    letter-spacing: 15px;
+    font-size: 25px;
+    color: #044D11;
+    padding-top: 10px;
   }
   
-  .catchus-text{
-    font-size: 25px;
+  .table {
+    margin: 10px 10px 0px 10px;
+    width: 100%;
+  }
+  
+  .mirrortour {
+    font-family: 'Bitter', sans-sarif;
+    text-align:center;
+    letter-spacing: 3px;
+    margin: 10px 15px 0px 15px;
+    font-size: 16px;
+    background-color: #21A179;
     color: white;
-    letter-spacing: 5px;
-    padding-top: 70px;
+  }
+  
+  .moreshows {
+    font-family: 'Bitter', sans-sarif;
+    text-align:center;
+    letter-spacing: 3px;
+    font-size: 10px;
+    padding-top: 10px;
+  }
+  
+  .moreshows a {
+    text-decoration: none;
+    color: orange;
+  }
+  
+  th {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 10px;
+    color: #ddccbe;
+  }
+  
+  
+  td {
+    font-family: 'Playfair Display', serif;
+    font-size: 10px;
+    color: #ddccbe;
+  }
+  
+  .open {
+  background-color: transparent;
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  font-size: 10px;
+  }
+  
+  #media {
+    overflow-y: scroll;
+    max-height: 450px;
+    width: 100%;
+  }
+
+  #about {
+    max-height: 450px;
+    width: 100%;
   }
   
   .albumpage-text{
@@ -563,5 +612,5 @@ label {
   top: 250px;
   left: 0px;
   }
-}
+  }
 }
