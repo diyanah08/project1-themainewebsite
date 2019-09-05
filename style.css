@@ -118,6 +118,7 @@ body {
 
 #tour {
   position: relative;
+  overflow: hidden;
   background-image: url(images/blueback1.jpg);
   height: 800px;
   width: 100%;
@@ -127,7 +128,6 @@ body {
   margin: 0px;
   padding: 0px;
   z-index: 3;
-  overflow: hidden;
 }
 
 .catchus-text {
@@ -508,7 +508,7 @@ label {
     position: relative;
   }
   
-    #about {
+  #about {
     max-height: 100%;
     width: 100%;
   }
@@ -553,10 +553,6 @@ label {
 
 /*TABLETS*/
 @media (min-width: 574px) and (max-width: 764px) {
-  .table {
-    margin: 30px 10px 0px 10px;
-  }
-  
   .moreshows {
     font-size: 20px;
     padding-top: 20px;
@@ -567,7 +563,7 @@ label {
     cursor: pointer;
   }
   
-   .table {
+  .table {
     margin: 15px 10px 0px 10px;
     width: 100%;
   }
@@ -597,7 +593,7 @@ label {
     position: relative;
   }
   
-    #about {
+  #about {
     max-height: 100%;
     width: 100%;
   }
@@ -683,9 +679,9 @@ label {
   }
 
   #tour {
+    overflow-y: scroll;
     max-height: 450px;
     width: 100%;
-    overflow: scroll;
   }
 
   .catchus-text {
