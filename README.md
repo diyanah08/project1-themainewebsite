@@ -2,6 +2,9 @@
 ###### Project 1: User-Centric Frontend Development - Code Institute – Band Website
 This is a website that is designed for the band named “The Maine”. The website highlights the tour dates, media and albums from the band and includes a short excerpt about the band. There is also a section for their social media accounts.
 
+## Demo
+A live demo can be found [here.](https://diyanah08.github.io/project1-themainewebsite/)
+
 ## UX
 My goal in the design was for new and old fans of The Maine to be able to keep up with the band’s tour dates as well as get to know the band’s repertoire of albums.
 1. As an existing fan, I want to know where the band is touring, so that I can achieve get tickets to see them.
