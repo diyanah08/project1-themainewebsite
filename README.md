@@ -15,10 +15,14 @@ My goal in the design was for new and old fans of The Maine to be able to keep u
 ## Technologies
 1.	HTML
 2.	CSS
-3.	Bootstrap (4.3)
+3.	[Bootstrap (4.3)](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+    - Bootstrap was used for the starter template and parts of the components such as navbar and dropdowns.
 
 ## Features
 This site uses the starter template in Bootstrap as well as several components from Bootstrap. The HTML and CSS style is then modified to achieve the design of the website.
+
+#### Specific Existing Features
+1. Dropdown: Dropdown was used in the Album page to showcase the band's albums. An image was placed in the dropdown button while an iframe of the spotify link to the album was embeded into each button. This allows users to listen to snippets of the songs in each album before going to spotify itself.
 
 #### Features Left To Implement
 In the future, I would like to be able to:
