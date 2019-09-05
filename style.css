@@ -709,16 +709,16 @@ label {
   }
   
   .card-text {
-    width: 200px;
+    width: 250px;
   }
   
   .card-title-media {
-    font-size: 10px;
+    font-size: 12px;
   }
   
   .card {
     margin: 15px auto;
-    width: 220px;
+    width: 270px;
   }
   
   .end {
