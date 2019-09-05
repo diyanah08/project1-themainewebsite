@@ -24,7 +24,25 @@ In the future, I would like to be able to:
 3.	Create a list of tour dates that is able to automatically add in new dates and update once the event is over.  
 
 ## Testing
+The intended outcome for old fans and new fans user stories have been achieved.
+1. Old friends are able to easily view the upcoming tour dates of the band in the Tour section by either scrolling or clicking the 'Tour' link in the navbar.
+    - They are then able to get tickets by simply clicking the 'Get Tickets' button which will lead them to a separate external website for the tickets.
+2. New fans are able to get to know and listen to the band's albums by clicking on the 'Albums' link in the navbar.
+    - They are then able to open the albums in their Spotify.
+3. A person who doesn't know the band will be able to get to know the band by:
+    - Listening to their latest album by clicking the 'call-to-action' buttons at the tp of the page.
+    - They will also be able to get to know what the band stands for in the About section by either scrolling down from the landing page or clicking the 'About' link in the nav bar.
 
+The “required” attribute was added to the ‘name’ and ‘email’ fields in the form so that you will not be able to submit the form.
+
+However, the modal still pops up when the submit button is clicked as I was not able to add in the JavaScript component.
+
+All links that are not on the landing page will open in a new tab using 'target="_blank"'. The links have been tested to ensure that they are linked to the correct destination.
+
+This site was tested on different browsers (Chrome, Safari, Internet Explorer, FireFox).
+- When tested on Internet Explorer, it was noticed that the alignment for the About section was off and the background-color for the poem div was not compatible.
+
+This site was also tested on several mobile devices (iPhone 6: Safari, iPad, Samsung Galaxy S9, Samsung Tablet S5 and S6). to ensure compatibility and responsiveness.
 
 
 ## Deployment
