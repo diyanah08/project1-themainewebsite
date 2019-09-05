@@ -599,7 +599,7 @@ label {
     letter-spacing: 15px;
     font-size: 25px;
     color: #044D11;
-    padding-top: 10px;
+    padding-top: 30px;
   }
   
   .table {
@@ -623,6 +623,7 @@ label {
     letter-spacing: 3px;
     font-size: 10px;
     padding-top: 10px;
+    padding-bottom: 0px;
   }
   
   .moreshows a {
@@ -660,12 +661,13 @@ label {
   }
 
   .bio1 {
+    background-color: #e8f7fc97;
     left: 1px;
     top: 5px;
     display: block;
     width: 100%;
     height: 80%;
-    padding: 0px;
+    padding-top: 5px;
   }
   
   .bio2 {
@@ -686,6 +688,7 @@ label {
     font-size: 10px;
     word-spacing: 1px;
     line-height: normal;
+    color: black;
   }
   
   .poem {
