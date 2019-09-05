@@ -43,9 +43,9 @@ However, the modal still pops up when the submit button is clicked as I was not 
 All links that are not on the landing page will open in a new tab using 'target="_blank"'. The links have been tested to ensure that they are linked to the correct destination.
 
 This site was tested on different browsers (Chrome, Safari, Internet Explorer, FireFox).
-- When tested on Internet Explorer, it was noticed that the alignment for the About section was off and the background-color for the poem div was not compatible.
+- When tested on Internet Explorer and Safari, it was noticed that the background-color chosen for the poem div was not compatible and did not show up.
 
-This site was also tested on several mobile devices (iPhone 6: Safari, iPad, Samsung Galaxy S9, Samsung Tablet S5 and S6). to ensure compatibility and responsiveness.
+This site was also tested on several mobile devices (iPhone 6: Safari, iPad, Samsung Galaxy S9, Samsung Tablet S5 and S6) to ensure compatibility and responsiveness.
 
 
 ## Deployment
