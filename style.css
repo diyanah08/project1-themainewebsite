@@ -638,16 +638,6 @@ label {
   .calendar-container {
   visibility: visible;
   }
-  
-  .open {
-  background-color: transparent;
-  display: block;
-  padding-right: 10px;
-  text-align: center;
-  margin: 0px;
-  font-size: 12px;
-  cursor: pointer;
-  }
 
   #media {
     min-height: 450px;
@@ -781,7 +771,7 @@ label {
   }
   
   .aboutusbio {
-    font-size: 16px;
+    font-size: 14px;
     word-spacing: 1px;
     line-height: normal;
     color: black;
