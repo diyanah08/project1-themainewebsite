@@ -264,7 +264,7 @@ td {
   padding: 5px 0px 0px 0px;
   font-family: 'Playfair Display', serif;
   font-size: 8px;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
 }
 
@@ -754,9 +754,9 @@ label {
   .bio1 {
     background-color: #e8f7fc97;
     left: 1px;
-    top: 30px;
+    top: 50px;
     display: block;
-    width: 100%;
+    width: 80%;
     height: 80%;
     padding-top: 30px;
   }
