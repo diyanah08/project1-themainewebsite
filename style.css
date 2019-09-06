@@ -117,7 +117,7 @@ body {
 /*TOUR SECTION*/
 
 #tour {
-  position: relative;
+  display: block;
   overflow: hidden;
   background-image: url(images/blueback1.jpg);
   height: 800px;
@@ -141,6 +141,7 @@ body {
 }
 
 .table {
+  position: absolute;
   margin: 40px 30px 0px 30px;
   width: 100%;
 }
@@ -204,6 +205,72 @@ td {
   color: white;
   text-decoration: none;
   }
+  
+/*TOUR FOR MOBILE VIEW*/
+
+.calendar-container {
+  position: relative;
+  height: 50%;
+  visibility: hidden;
+  margin-left: 15px;
+  padding-top: 0px;
+}
+
+.calendar-header {
+  background-color: #f2a916;
+  padding:  5px 0px 5px 0px;
+  width: 90%;
+}
+
+.calendar-month {
+  font-family: 'Anton', serif;
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: 3px;
+  color: white;
+  padding-bottom: 0px;
+}
+
+.calendar {
+  font-family: 'Bitter', sans-serif;
+  display: grid;
+  width: 90%;
+  grid-template-columns: repeat(7, minmax(40px, 1fr));
+  grid-template-rows: 8px;
+  grid-auto-rows: 79px;
+  margin: 0px 5px 5px 0px;
+  padding-top: 5px;
+  background-color:#e8f7fc97;
+
+}
+
+.day-name {
+  font-family: 'Bitter', sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  color: #044D11;
+  text-align: center;
+}
+
+.day {
+  padding: 5px 10px 0px 10px;
+  font-family: 'Bitter', san-serif;
+  font-size: 10px;
+  color: #044D11;
+}
+
+
+.task {
+  padding: 5px 0px 0px 0px;
+  font-family: 'Playfair Display', serif;
+  font-size: 8px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.task a {
+  color: #a93915;
+}
   
 /*ABOUT SECTION*/
 
@@ -554,28 +621,22 @@ label {
 /*TABLETS*/
 @media (min-width: 574px) and (max-width: 764px) {
   .moreshows {
-    font-size: 20px;
-    padding-top: 20px;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 5px;
   }
   
   .moreshows a {
-    color: orange;
+    color: white;
     cursor: pointer;
   }
   
   .table {
-    margin: 15px 10px 0px 10px;
-    width: 100%;
+  visibility: hidden;
   }
   
-  
-  th {
-    font-size: 16px;
-  }
-  
-  
-  td {
-    font-size: 16px;
+  .calendar-container {
+  visibility: visible;
   }
   
   .open {
@@ -667,6 +728,12 @@ label {
     color: white;
     line-height: 13px;
   }
+  
+  .moreshows {
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
 
   #tour {
     overflow-y: scroll;
@@ -676,62 +743,17 @@ label {
 
   .catchus-text {
     letter-spacing: 15px;
-    font-size: 25px;
+    font-size: 18px;
     color: #044D11;
     padding-top: 30px;
   }
   
   .table {
-    margin: 10px 10px 0px 10px;
-    width: 100%;
+    visibility: hidden;
   }
   
-  .mirrortour {
-    font-family: 'Bitter', sans-sarif;
-    text-align:center;
-    letter-spacing: 3px;
-    margin: 10px 15px 0px 15px;
-    font-size: 16px;
-    background-color: #21A179;
-    color: white;
-  }
-  
-  .moreshows {
-    font-family: 'Bitter', sans-sarif;
-    text-align:center;
-    letter-spacing: 3px;
-    font-size: 10px;
-    padding-top: 10px;
-    padding-bottom: 0px;
-  }
-  
-  .moreshows a {
-    text-decoration: none;
-    color: orange;
-    cursor: pointer;
-  }
-  
-  th {
-    text-align: center;
-    font-family: 'Playfair Display', serif;
-    font-size: 10px;
-    color: #ddccbe;
-  }
-  
-  
-  td {
-    font-family: 'Playfair Display', serif;
-    font-size: 10px;
-    color: #ddccbe;
-  }
-  
-  .open {
-  background-color: transparent;
-  display: block;
-  padding: 0px;
-  margin: 0px;
-  font-size: 10px;
-  cursor: pointer;
+  .calendar-container {
+  visibility: visible;
   }
   
   #about {
