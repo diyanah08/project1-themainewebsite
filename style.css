@@ -832,3 +832,14 @@ label {
   }
   }
 }
+
+@media (max-width: 360px) {
+  
+  .greetings {
+    font-size: 25px;
+  }
+  
+  .aboutusbio {
+    font-size: 14px;
+  }
+}
