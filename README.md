@@ -12,6 +12,9 @@ My goal in the design was for new and old fans of The Maine to be able to keep u
 3. As a person doesn’t know the band, I want to know who they are, so that I can decide if they interest me.
 4. As a person doesn’t know the band, I want to know their latest songs, so that I can decide if I enjoy their music.
 
+In the design, the mobile view and the web view is also slightly different in terms of colors and text visible.
+- For example, in the mobile view, the poem in the About section is hidden so has to not make the site too cluttered. As it does not affect the overall purpose of the site which is to get to know the repertoire of albums and finding out the tour dates, it is intentionally left out.
+
 ## Technologies
 1.	HTML
 2.	CSS
@@ -28,7 +31,8 @@ This site uses the starter template in Bootstrap as well as several components f
 In the future, I would like to be able to:
 1.	Disable the model if form is not valid.
 2.	Add the proper form to collect email address.
-3.	Create a list of tour dates that is able to automatically add in new dates and update once the event is over.  
+3.	Create a list of tour dates that is able to automatically add in new dates and update once the event is over.
+4.	Also create a calendar view for tour dates when on mobile view.
 
 ## Testing
 The intended outcome for old fans and new fans user stories have been achieved.
@@ -47,7 +51,7 @@ However, the modal still pops up when the submit button is clicked as I was not 
 All links that are not on the landing page will open in a new tab using 'target="_blank"'. The links have been tested to ensure that they are linked to the correct destination.
 
 This site was tested on different browsers (Chrome, Safari, Internet Explorer, FireFox).
-- When tested on Internet Explorer and Safari, it was noticed that the background-color chosen for the poem div was not compatible and did not show up.
+- When tested on Internet Explorer and Safari, it was noticed that the background-color chosen for the div in the About section was not compatible and did not show up.
 
 This site was also tested on several mobile devices (iPhone 6: Safari, iPad, Samsung Galaxy S9, Samsung Tablet S5 and S6) to ensure compatibility and responsiveness.
 
