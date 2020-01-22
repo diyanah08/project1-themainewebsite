@@ -215,7 +215,7 @@ td {
   top: 120px;
   width: 300px;
   height: 80%;
-  background-color: #e8f7fc97;
+  background-color: rgba(217,228,230, 0.25);
 }
 
 .bio2 {
